@@ -6,8 +6,8 @@ import java.io.IOException;
 
 public class Day1 {
     public static void main(String[] args) {
-        try (BufferedReader br = new BufferedReader(new FileReader("InputDay1.txt"))) {
-    //    try (BufferedReader br = new BufferedReader(new FileReader("exampleDay1.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("Day1/InputDay1.txt"))) {
+    //    try (BufferedReader br = new BufferedReader(new FileReader("Day1/exampleDay1.txt"))) {
             String line;
             int currPos = 50;
             int numZeros = 0;

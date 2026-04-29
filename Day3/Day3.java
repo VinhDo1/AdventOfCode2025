@@ -6,8 +6,8 @@ import java.io.IOException;
 
 public class Day3 {
   public static void main(String[] args) {
-    try (BufferedReader br = new BufferedReader(new FileReader("InputDay3.txt"))) {
-//          try (BufferedReader br = new BufferedReader(new FileReader("exampleDay3.txt"))) {
+    try (BufferedReader br = new BufferedReader(new FileReader("Day3/InputDay3.txt"))) {
+//          try (BufferedReader br = new BufferedReader(new FileReader("Day3/exampleDay3.txt"))) {
       String line;
       long total = 0;
       int numBatteries = 12;
